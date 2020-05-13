@@ -23,10 +23,10 @@ public class Template {
         // process current node here
 
         if (visited.contains(node.left)) {
-            dfs(node.left,visited);
+            dfs(node.left, visited);
         }
         if (visited.contains(node.right)) {
-            dfs(node.right,visited);
+            dfs(node.right, visited);
         }
     }
 }
